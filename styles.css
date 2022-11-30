@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -71,8 +70,13 @@
     align-items: center;
     padding-right: 1.2rem;
 }
+.plan-btn a:hover{
+    text-decoration: none;
+    color: #A3A1C7;
+}
 
 /* Footer */
+
 .btn{
     margin: 1.5rem 3rem 0.5rem;
     padding: 0.8rem;
@@ -86,4 +90,14 @@
 .proceed{
     background-color: #382AE1 ;
 }
-
+.proceed:hover{
+    background-color: #766DEC;
+}
+.cancel a{
+    color: #9193A8; 
+    text-decoration: none;
+}
+.cancel a:hover{
+    color: #70738A;
+    font-weight: 500;
+}
